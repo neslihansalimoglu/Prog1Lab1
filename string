@@ -1,0 +1,25 @@
+public class StringPractice{
+	public static void main(String[] args) {
+		
+		System.out.println("**********String Practice**********");
+
+		//String hello = "hello";
+		String hello = new String("Hello");
+
+		System.out.println(hello);
+
+		String upHello = hello.toUpperCase();
+
+		System.out.println(upHello);
+		System.out.println(upHello.toLowerCase());
+
+		String myBigString = "\n Hello everybody, today is thursday, " + "and we are having fun";
+
+		System.out.println(myBigString);
+
+		System.out.println("The first index of 'o' is " + myBigString );
+		System.out.println("The first index of 'o' in the TRIMMED string is " + (myBigString.trim()).indexOf('o'));
+
+		
+	}
+}
