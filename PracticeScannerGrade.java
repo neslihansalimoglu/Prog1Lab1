@@ -1,5 +1,5 @@
 import java.util.*;
-public class PracticeLoop{
+public class PracticeScannerGrade{
 
 	public static void main(String[] args) {
 
