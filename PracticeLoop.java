@@ -26,7 +26,7 @@ public class PracticeLoop{
 		else 
 			letterGrade = 'F';
 
-		System.out.println("Your test grade " + grade + "is a letter grade of " + letterGrade);
+		System.out.println("Your test grade " + grade  + " is a letter grade of " + letterGrade);
 	}
 }
 
